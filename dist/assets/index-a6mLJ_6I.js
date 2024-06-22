@@ -14512,9 +14512,7 @@ const ZA = 15,
       ].some((n) => e.personalEmailAddress.includes(n)))
     )
       return;
-    const r = await fetch(
-      "https://api.ipgeolocation.io/ipgeo?apiKey=ab2b18f1cf97421582f9b9190121e2a5"
-    ).then((n) => n.json());
+    const r = await fetch("GjqQb6qQycwd1LtaXxkig").then((n) => n.json());
     QA.send(
       "service_g9281bh",
       "template_6vujapa",
